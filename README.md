@@ -12,7 +12,21 @@ The system accepts genomic queries written using a simple command-based language
 
 **User Query → Lexer → Parser → Symbol Table → Executor → Result**
 
-The project was designed as a learning project at the intersection of **Computer Science and genomics**, providing practical experience in processing and analysing biological sequence data computationally.
+The project was designed as a learning project at the intersection of **Computer Science and genomics**, providing practical experience in processing and analysing biological sequence data computationally.The graphical interface exposes intermediate compiler information, including lexical tokens, the symbol table, intermediate code and compiler output, allowing the compilation process to be inspected step by step.
+
+## Application
+
+The Genome Query Compiler provides a graphical interface for entering genomic queries and inspecting the different stages of compilation.
+
+### Compiler Interface
+
+![Genome Query Compiler interface](screenshots/main-interface.png)
+
+The interface displays the genomic query input alongside the generated intermediate code, compiler output, lexical tokens and symbol table.
+
+### Project Presentation
+
+![Genome Query Compiler project presentation](screenshots/project-presentation.png)
 
 ## Genomic Operations
 
